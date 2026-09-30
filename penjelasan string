@@ -1,0 +1,25 @@
+Deskripsi
+
+Program ini menunjukkan cara membuat **variabel pada PHP**, menampilkan isi variabel, 
+serta menggabungkan beberapa nilai menjadi satu kalimat.
+
+Variabel `$nama` berisi teks `"belajar PABI"`, sedangkan `$nama2` berisi teks `"sambil mendengar lagu"`. 
+Kedua variabel tersebut kemudian ditampilkan menggunakan `echo`.
+
+Tanda titik (`.`) digunakan untuk **menggabungkan nilai atau teks**.
+Sementara itu, `<br>` digunakan untuk membuat baris baru pada halaman web.
+
+Pada bagian terakhir, kedua variabel digabungkan dengan teks tambahan `"untuk"` 
+sehingga menghasilkan kalimat yang lebih lengkap.
+
+Output
+
+```text
+belajar PABI
+belajar PABI sambil mendengar lagu
+belajar PABI untuk sambil mendengar lagu
+```
+
+Kesimpulan
+Kode ini menunjukkan penggunaan variabel dan operator penggabungan string (`.`) 
+dalam PHP untuk menyimpan, menampilkan, dan menggabungkan data teks.
