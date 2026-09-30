@@ -1,0 +1,22 @@
+Deskripsi
+Program ini merupakan contoh penggunaan Associative Array pada PHP. Associative Array adalah jenis array yang menggunakan sebuah nama atau teks sebagai key untuk menghubungkan dan mengakses suatu nilai. Pada program ini, key yang digunakan adalah nama mata kuliah, sedangkan value merupakan nilai yang diperoleh mahasiswa.
+
+Membuat Associative Array
+Pada program terdapat dua cara untuk membuat Associative Array. Cara pertama menggunakan fungsi array(), kemudian setiap data dituliskan dalam bentuk pasangan key dan value. Contohnya, "Matematika" => 95 berarti mata kuliah Matematika memiliki nilai 95.
+Cara kedua dilakukan dengan memasukkan data ke dalam array satu per satu. Setiap key dituliskan di dalam tanda [], kemudian diberikan value menggunakan tanda =. Kedua cara tersebut menghasilkan data array yang memiliki key dan value.
+
+Mengakses Data
+Setelah array dibuat, data dapat dipanggil menggunakan nama key yang sesuai. Contohnya, $mahasiswa_dua["Matematika"] digunakan untuk mengambil nilai Matematika dari array $mahasiswa_dua.
+
+Perintah echo digunakan untuk menampilkan data tersebut ke output. Sementara itu, tanda . digunakan untuk menggabungkan teks dengan nilai yang berasal dari array. \n digunakan untuk membuat baris baru agar hasil output terlihat lebih rapi.
+
+Output Program
+Marks for mahasiswa satu is:
+Matematika:95
+Fisika:90
+PABI:96
+English:93
+Sisop:98
+Kesimpulan
+
+Program ini menunjukkan bagaimana Associative Array dapat digunakan untuk menyimpan data berdasarkan key tertentu. Penggunaan nama mata kuliah sebagai key membuat setiap nilai lebih mudah dikenali dan diakses. Program ini juga menunjukkan dua cara pembuatan Associative Array serta cara menampilkan data yang sudah disimpan di dalam array.
