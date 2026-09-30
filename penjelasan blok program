@@ -1,0 +1,46 @@
+Conditional Statement PHP
+
+Deskripsi
+Program ini merupakan contoh penggunaan **conditional statement** atau percabangan `if` pada PHP. 
+Percabangan digunakan untuk menjalankan perintah tertentu berdasarkan kondisi yang telah ditentukan.
+
+Menentukan Nilai Variabel
+```php
+$umur = 20;
+```
+Pada bagian ini dibuat variabel `$umur` dengan nilai `20`. Variabel tersebut nantinya digunakan
+untuk menentukan apakah umur memenuhi kondisi yang diberikan.
+
+Percabangan If
+```php
+if ($umur > 18) {
+```
+Kode tersebut digunakan untuk memeriksa apakah nilai `$umur` lebih besar dari `18`. 
+Jika kondisi tersebut benar, maka semua perintah yang berada di dalam tanda `{ }` akan dijalankan.
+
+Karena nilai `$umur` adalah `20`, maka kondisi `$umur > 18` bernilai **true**.
+
+Menampilkan Pesan
+Jika kondisi terpenuhi, program akan menjalankan beberapa perintah `echo` berikut:
+
+```php
+echo "Kamu sudah dewasa";
+echo "Tapi masih saja malas";
+echo "Jangan gitu lagi ya, ada orang yang harus kamu banggakan";
+```
+
+Ketiga perintah tersebut digunakan untuk menampilkan pesan ke layar. 
+Pesan akan ditampilkan karena umur yang diberikan memenuhi kondisi pada percabangan `if`.
+
+Output Program
+
+```text
+Kamu sudah dewasa
+Tapi masih saja malas
+Jangan gitu lagi ya, ada orang yang harus kamu banggakan
+```
+
+Kesimpulan
+Program ini menunjukkan penggunaan percabangan `if` sederhana pada PHP.
+Kondisi `$umur > 18` digunakan untuk menentukan apakah pesan akan ditampilkan. 
+Jika umur lebih dari 18 tahun, maka program menjalankan perintah yang ada di dalam blok `if`.
