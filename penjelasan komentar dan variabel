@@ -1,0 +1,16 @@
+Deskripsi
+
+Kode ini merupakan contoh struktur dasar HTML yang 
+digunakan sebagai kerangka awal sebuah halaman web.
+
+`<!DOCTYPE html>` digunakan untuk menunjukkan bahwa dokumen menggunakan HTML5. 
+Tag `<html lang="en">` menjadi pembungkus seluruh dokumen dan menunjukkan bahwa bahasa halaman adalah bahasa Inggris.
+
+Bagian `<head>` berisi informasi dasar halaman. `<meta charset="UTF-8">` menentukan format karakter yang digunakan, 
+sedangkan `<meta name="viewport">` membuat tampilan halaman dapat menyesuaikan ukuran layar perangkat.
+
+Tag `<title>` digunakan untuk menentukan judul yang muncul pada tab browser, yaitu **"PHP itu Mudah"**.
+
+Kesimpulan
+Kode ini menunjukkan struktur dasar HTML yang terdiri dari deklarasi HTML5, 
+elemen `html`, `head`, pengaturan `meta`, dan judul halaman menggunakan `title`.
